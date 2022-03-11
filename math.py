@@ -1,9 +1,13 @@
 import math
+import random
 print('Привет , это мой первый проект , не судите строго')
+#Denote the variable and type
 a=int(input('Введите данные первой переменной:'))
 d=int(input('Что вы хотите ? все каждому или все сразу?'))
+#Checking the type of information received
 if (d == 0):
-    c=int(input('Что вы хотите сделать с переменной?'))  
+    c=int(input('Что вы хотите сделать с переменной?'))
+#Structure of the first option
 def math1(a):
    if (c == 1 ):
         print('Модуль числа: ', a ,
@@ -29,6 +33,7 @@ def math1(a):
         print('Округление вверх числа ' , a , 'Равен' , math.ceil(a))
    else:
         print('Неверный тип операции')
+#Structure of the second option
 def math2(a):
    if (d == 0):
       math1(c)
@@ -44,6 +49,7 @@ def math2(a):
     print('Округление вниз числа равен:' , math.floor(a))
     print('Округление вверх числа равен:' , math.ceil(a))
    else:
-    print('На данный момент доступны только 0 и 1 тип') 
+    for i in range(5):
+        print(random.randint(1365546,2637729))
 math2(a)
 
