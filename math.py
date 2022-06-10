@@ -52,4 +52,5 @@ def math2(a):
     for i in range(5):
         print(random.randint(1365546,2637729))
 math2(a)
+#Чо это за говно 
 
